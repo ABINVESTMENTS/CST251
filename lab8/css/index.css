@@ -33,6 +33,7 @@ w3-round-xxlarge w3-black.w3-panel {
   }
 
 body {
+
     font-family: Helvetica, Verdana, Arial, "san serif";
     background-color: lightpink;
     padding: 25px;
@@ -82,10 +83,13 @@ img {
 
 
 a {
+
     text-decoration: none;
     color: red;
 }
 a:hover {
+
     text-decoration: underline;
-    text-decoration-style: wavy;
+    text-decoration:
+    text-decoration-style: ;
 }

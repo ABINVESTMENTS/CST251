@@ -1,0 +1,64 @@
+head
+
+style
+
+{
+  background-color: black;
+}
+
+
+img.ab {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+
+}
+
+img.tree {
+  position: absolute;
+  top: 210px;
+  left: 250px;
+  right: 0px;
+  z-index: 1;
+
+}
+
+.tab button {
+  background-color: inherit;
+  float: right;
+  color: #9b6243;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab2 button {
+  background-color: inherit;
+  float: left;
+  color: #9b6243;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+h1 {
+  font-size: 15px;
+  border-color: #2e1f29;
+  padding: 1px;
+
+}
+
+body {
+    font-family: Verdana, Arial, "san serif";
+    background-color: black;
+    color: white;
+    padding: 0px;
+    font-size: 120%;
+}

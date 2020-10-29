@@ -1,0 +1,145 @@
+head
+
+style
+
+
+
+
+
+w3-round-xxlarge w3-pink.w3-panel {
+
+}
+  .tree  {
+    width: 600px;
+    height: 600px;
+    overflow: scroll;
+    margin: 0 auto;
+  }
+
+  #grad1 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(red, yellow);
+  }
+
+
+
+
+  #movetxt {
+      -webkit-animation: moving 5s infinite;
+      animation: moving 5s infinite;
+  }
+
+  @-webkit-keyframes moving {
+      from {-webkit-transform: translateY(0px);}
+      to {-webkit-transform: translateY(200px);}
+  }
+
+  @keyframes moving {
+      from {transform: translateY(0px);}
+      to {transform: translateY(200px);}
+  }
+
+  .tree img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+    border-radius: 20px;
+  }
+
+  div.chill {
+  border-radius: 20px;
+  width: 1000px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.newspaper {
+background-color: pink;
+width: 1000px;
+color: black;
+  column-count: 3;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+
+}
+
+
+
+  .tree :hover img {
+    transform: scale(2);
+  }
+
+  #grad1 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(red, yellow);
+  }
+body {
+    font-family: Verdana, Arial, "san serif";
+    background-image: linear-gradient(black, #191970);
+    padding: 25px;
+    font-size: 120%;
+}
+div.treeee {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  transition: width 2s;
+  border-radius: 20px;
+}
+
+div:hover {
+  width: 300px;
+}
+
+}
+
+h1, h2, h3 {
+    font-family: "Arial", monospace;
+}
+.tree:hover {
+    position:right;
+    top:50px;
+    left:35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+.ab:hover {
+    position:left;
+    top:25px;
+    left:35px;
+    width:1000px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+
+img {
+    float: right;
+    width: 400px;
+    height: auto;
+}
+
+
+a {
+    text-decoration: none;
+    color: red;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
