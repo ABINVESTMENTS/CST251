@@ -3,42 +3,20 @@ head
 style
 
 
-
-
-
-w3-round-xxlarge w3-pink.w3-panel {
-
+aside#sidebar {
+  display: inline-block;
+  position: sticky;
+  line-height: 230%;
+  bottom: 200px;
+  right: -25px;
+  width: 400px;
+  height: 400px;
+  padding: 5px;
+  border: 3px solid black;
+  background-color: #b43757;
+  border-radius: 20px;
 }
-  .tree  {
-    width: 600px;
-    height: 600px;
-    overflow: scroll;
-    margin: 0 auto;
-  }
 
-  #movetxt {
-      -webkit-animation: moving 5s infinite;
-      animation: moving 5s infinite;
-  }
-
-  @-webkit-keyframes moving {
-      from {-webkit-transform: translateY(0px);}
-      to {-webkit-transform: translateY(200px);}
-  }
-
-  @keyframes moving {
-      from {transform: translateY(0px);}
-      to {transform: translateY(200px);}
-  }
-
-  .tree img {
-    width: 100%;
-    transition: 0.5s all ease-in-out;
-  }
-
-  .tree :hover img {
-    transform: scale(2);
-  }
 
 body {
     font-family: Verdana, Arial, "san serif";
@@ -47,44 +25,14 @@ body {
     font-size: 120%;
 }
 
-
-}
-
-h1, h2, h3 {
-    font-family: "Arial", monospace;
-}
-.tree:hover {
-    position:right;
-    top:50px;
-    left:35px;
-    width:500px;
-    height:auto;
-    display:block;
-    z-index:999;
-}
-.ab:hover {
-    position:left;
-    top:25px;
-    left:35px;
-    width:1000px;
-    height:auto;
-    display:block;
-    z-index:999;
-}
-
-
 img {
-    float: right;
-    width: 400px;
-    height: auto;
-}
 
-
-a {
-    text-decoration: none;
-    color: red;
+position: right
+  width: 200px;
 }
-a:hover {
-    text-decoration: underline;
-    text-decoration-style: wavy;
+img.dre {
+position: relative;
+right: 5px;
+left: 0px;
+bottom: 0px;
 }
