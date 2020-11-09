@@ -1,0 +1,26 @@
+head
+style
+
+
+
+.ab {
+
+
+}
+
+body {
+    font-family: Verdana, Arial, "san serif";
+    background-color: black;
+    padding: 25px;
+    font-size: 120%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.col-sm-3 {max-width: 300px;}
+
+h1, h2, h3 {
+    font-family: "Arial", monospace;
+}
