@@ -1,0 +1,16 @@
+head
+style
+
+body {
+    font-family: Verdana, Arial, "san serif";
+    background-color: white;
+    padding: 25px;
+    font-size: 120%;
+}
+
+
+img {
+  border-radius: 20px;
+  max-width: 400px;
+  max-height: 300px;
+}
